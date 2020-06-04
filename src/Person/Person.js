@@ -1,9 +1,10 @@
 import React from "react";
+import './Person.css';
 
 // Function based component creation
 const person = (props) => {
   return (
-    <div>
+    <div className="Person">
       <p onClick={props.click}>I'm {props.name}</p>
       <p>{props.children}</p>
       <input type="text" onChange={props.change} value={props.name} />
