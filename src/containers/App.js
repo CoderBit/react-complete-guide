@@ -10,7 +10,7 @@ class App extends Component {
       { id: "2", name: "Lily" },
       { id: "3", name: "Jack" },
     ],
-    otherState: "some other state",
+    otherState: "changing the text for testing purpose",
     showPersons: false,
   };
 
